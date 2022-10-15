@@ -1,0 +1,4 @@
+﻿Identifier;Competency Question / Fact
+IOT-1;A tracking tag signals its location (and that of the resource it is assigned to)
+IOT-2;A tracking tag signals its location at a particular time
+IOT-3;There are three kinds of location a tracking tag can signal: location locationKF and locationMA
