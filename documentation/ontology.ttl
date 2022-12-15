@@ -115,7 +115,7 @@
 
 ###  https://cogito.iot.linkeddata.es/def/iot#LocationMeasurement
 :LocationMeasurement rdf:type owl:Class ;
-                     rdfs:subClassOf <https://saref.etsi.org/core#Measurement> ;
+                     rdfs:subClassOf <https://saref.etsi.org/core/Measurement> ;
                      rdfs:comment "The location measured by an entity (especially an iot:TrackingTag)" ;
                      rdfs:label "Location Measurement" .
 
@@ -128,31 +128,31 @@
 
 ###  https://cogito.iot.linkeddata.es/def/iot#TrackingTag
 :TrackingTag rdf:type owl:Class ;
-             rdfs:subClassOf <https://saref.etsi.org/core#Device> ;
+             rdfs:subClassOf <https://saref.etsi.org/core/Device> ;
              rdfs:comment "A subclass of saref:Device and, as such, a tangible object designed to accomplish a particular task; in this case signalling its location" ;
              rdfs:label "Tracking Tag" .
 
 
 ###  https://cogito.iot.linkeddata.es/def/resource#Resource
 <https://cogito.iot.linkeddata.es/def/resource#Resource> rdf:type owl:Class ;
-                                                         rdfs:subClassOf <https://saref.etsi.org/core#FeatureOfInterest> ;
+                                                         rdfs:subClassOf <https://saref.etsi.org/core/FeatureOfInterest> ;
                                                          rdfs:comment "A source of supply, support, or aid, especially one that can be readily drawn upon when needed; and from which a property is measured" .
 
 
-###  https://saref.etsi.org/core#Device
-<https://saref.etsi.org/core#Device> rdf:type owl:Class ;
+###  https://saref.etsi.org/core/Device
+<https://saref.etsi.org/core/Device> rdf:type owl:Class ;
                                      rdfs:isDefinedBy <https://saref.etsi.org/core#> ;
                                      rdfs:label "Device" .
 
 
-###  https://saref.etsi.org/core#FeatureOfInterest
-<https://saref.etsi.org/core#FeatureOfInterest> rdf:type owl:Class ;
+###  https://saref.etsi.org/core/FeatureOfInterest
+<https://saref.etsi.org/core/FeatureOfInterest> rdf:type owl:Class ;
                                                 rdfs:isDefinedBy <https://saref.etsi.org/core#> ;
                                                 rdfs:label "Feature of Interest" .
 
 
-###  https://saref.etsi.org/core#Measurement
-<https://saref.etsi.org/core#Measurement> rdf:type owl:Class ;
+###  https://saref.etsi.org/core/Measurement
+<https://saref.etsi.org/core/Measurement> rdf:type owl:Class ;
                                           rdfs:isDefinedBy <https://saref.etsi.org/core#> ;
                                           rdfs:label "Measurement" .
 

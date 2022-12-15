@@ -112,7 +112,7 @@
 # 
 # https://cogito.iot.linkeddata.es/def/iot#LocationMeasurement
 <https://cogito.iot.linkeddata.es/def/iot#LocationMeasurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://cogito.iot.linkeddata.es/def/iot#LocationMeasurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/core#Measurement> .
+<https://cogito.iot.linkeddata.es/def/iot#LocationMeasurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/core/Measurement> .
 <https://cogito.iot.linkeddata.es/def/iot#LocationMeasurement> <http://www.w3.org/2000/01/rdf-schema#comment> "The location measured by an entity (especially an iot:TrackingTag)" .
 <https://cogito.iot.linkeddata.es/def/iot#LocationMeasurement> <http://www.w3.org/2000/01/rdf-schema#label> "Location Measurement" .
 # 
@@ -123,28 +123,28 @@
 # 
 # https://cogito.iot.linkeddata.es/def/iot#TrackingTag
 <https://cogito.iot.linkeddata.es/def/iot#TrackingTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://cogito.iot.linkeddata.es/def/iot#TrackingTag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/core#Device> .
+<https://cogito.iot.linkeddata.es/def/iot#TrackingTag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/core/Device> .
 <https://cogito.iot.linkeddata.es/def/iot#TrackingTag> <http://www.w3.org/2000/01/rdf-schema#comment> "A subclass of saref:Device and, as such, a tangible object designed to accomplish a particular task; in this case signalling its location" .
 <https://cogito.iot.linkeddata.es/def/iot#TrackingTag> <http://www.w3.org/2000/01/rdf-schema#label> "Tracking Tag" .
 # 
 # https://cogito.iot.linkeddata.es/def/resource#Resource
 <https://cogito.iot.linkeddata.es/def/resource#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://cogito.iot.linkeddata.es/def/resource#Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/core#FeatureOfInterest> .
+<https://cogito.iot.linkeddata.es/def/resource#Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/core/FeatureOfInterest> .
 <https://cogito.iot.linkeddata.es/def/resource#Resource> <http://www.w3.org/2000/01/rdf-schema#comment> "A source of supply, support, or aid, especially one that can be readily drawn upon when needed; and from which a property is measured" .
 # 
-# https://saref.etsi.org/core#Device
-<https://saref.etsi.org/core#Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://saref.etsi.org/core#Device> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://saref.etsi.org/core#> .
-<https://saref.etsi.org/core#Device> <http://www.w3.org/2000/01/rdf-schema#label> "Device" .
+# https://saref.etsi.org/core/Device
+<https://saref.etsi.org/core/Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://saref.etsi.org/core/Device> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://saref.etsi.org/core#> .
+<https://saref.etsi.org/core/Device> <http://www.w3.org/2000/01/rdf-schema#label> "Device" .
 # 
-# https://saref.etsi.org/core#FeatureOfInterest
-<https://saref.etsi.org/core#FeatureOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://saref.etsi.org/core#FeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://saref.etsi.org/core#> .
-<https://saref.etsi.org/core#FeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#label> "Feature of Interest" .
+# https://saref.etsi.org/core/FeatureOfInterest
+<https://saref.etsi.org/core/FeatureOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://saref.etsi.org/core/FeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://saref.etsi.org/core#> .
+<https://saref.etsi.org/core/FeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#label> "Feature of Interest" .
 # 
-# https://saref.etsi.org/core#Measurement
-<https://saref.etsi.org/core#Measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://saref.etsi.org/core#Measurement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://saref.etsi.org/core#> .
-<https://saref.etsi.org/core#Measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Measurement" .
+# https://saref.etsi.org/core/Measurement
+<https://saref.etsi.org/core/Measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://saref.etsi.org/core/Measurement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://saref.etsi.org/core#> .
+<https://saref.etsi.org/core/Measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Measurement" .
 # 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

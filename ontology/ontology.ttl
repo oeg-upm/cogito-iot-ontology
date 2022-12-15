@@ -6,7 +6,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix saref: <https://saref.etsi.org/core#> .
+@prefix saref: <https://saref.etsi.org/core/> .
 @prefix dcterms: <http://purl.org/dc/terms//> .
 @prefix resource: <https://cogito.iot.linkeddata.es/def/resource#> .
 @base <https://cogito.iot.linkeddata.es/def/iot#> .
@@ -72,15 +72,15 @@ iot:hasResult rdf:type owl:ObjectProperty ;
 
 
 ###  https://saref.etsi.org/core#isMeasurementOf
-saref:isMeasurementOf rdf:type owl:ObjectProperty ;
-                      rdfs:isDefinedBy saref: ;
-                      rdfs:label "is measurement of" .
+<https://saref.etsi.org/core#isMeasurementOf> rdf:type owl:ObjectProperty ;
+                                              rdfs:isDefinedBy <https://saref.etsi.org/core#> ;
+                                              rdfs:label "is measurement of" .
 
 
 ###  https://saref.etsi.org/core#makesMeasurement
-saref:makesMeasurement rdf:type owl:ObjectProperty ;
-                       rdfs:isDefinedBy saref: ;
-                       rdfs:label "makes measurement" .
+<https://saref.etsi.org/core#makesMeasurement> rdf:type owl:ObjectProperty ;
+                                               rdfs:isDefinedBy <https://saref.etsi.org/core#> ;
+                                               rdfs:label "makes measurement" .
 
 
 #################################################################
@@ -88,9 +88,9 @@ saref:makesMeasurement rdf:type owl:ObjectProperty ;
 #################################################################
 
 ###  https://saref.etsi.org/core#hasTimestamp
-saref:hasTimestamp rdf:type owl:DatatypeProperty ;
-                   rdfs:comment "has timestamp" ;
-                   rdfs:isDefinedBy saref: .
+<https://saref.etsi.org/core#hasTimestamp> rdf:type owl:DatatypeProperty ;
+                                           rdfs:comment "has timestamp" ;
+                                           rdfs:isDefinedBy <https://saref.etsi.org/core#> .
 
 
 #################################################################
@@ -144,21 +144,21 @@ resource:Resource rdf:type owl:Class ;
                   rdfs:comment "A source of supply, support, or aid, especially one that can be readily drawn upon when needed; and from which a property is measured" .
 
 
-###  https://saref.etsi.org/core#Device
+###  https://saref.etsi.org/core/Device
 saref:Device rdf:type owl:Class ;
-             rdfs:isDefinedBy saref: ;
+             rdfs:isDefinedBy <https://saref.etsi.org/core#> ;
              rdfs:label "Device" .
 
 
-###  https://saref.etsi.org/core#FeatureOfInterest
+###  https://saref.etsi.org/core/FeatureOfInterest
 saref:FeatureOfInterest rdf:type owl:Class ;
-                        rdfs:isDefinedBy saref: ;
+                        rdfs:isDefinedBy <https://saref.etsi.org/core#> ;
                         rdfs:label "Feature of Interest" .
 
 
-###  https://saref.etsi.org/core#Measurement
+###  https://saref.etsi.org/core/Measurement
 saref:Measurement rdf:type owl:Class ;
-                  rdfs:isDefinedBy saref: ;
+                  rdfs:isDefinedBy <https://saref.etsi.org/core#> ;
                   rdfs:label "Measurement" .
 
 

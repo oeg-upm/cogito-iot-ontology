@@ -78,7 +78,7 @@
     "@value" : "Location Measurement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://saref.etsi.org/core#Measurement"
+    "@id" : "https://saref.etsi.org/core/Measurement"
   } ]
 }, {
   "@id" : "https://cogito.iot.linkeddata.es/def/iot#Result",
@@ -99,7 +99,7 @@
     "@value" : "Tracking Tag"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://saref.etsi.org/core#Device"
+    "@id" : "https://saref.etsi.org/core/Device"
   } ]
 }, {
   "@id" : "https://cogito.iot.linkeddata.es/def/iot#hasLocation",
@@ -153,34 +153,7 @@
     "@value" : "A source of supply, support, or aid, especially one that can be readily drawn upon when needed; and from which a property is measured"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://saref.etsi.org/core#FeatureOfInterest"
-  } ]
-}, {
-  "@id" : "https://saref.etsi.org/core#Device",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://saref.etsi.org/core#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Device"
-  } ]
-}, {
-  "@id" : "https://saref.etsi.org/core#FeatureOfInterest",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://saref.etsi.org/core#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Feature of Interest"
-  } ]
-}, {
-  "@id" : "https://saref.etsi.org/core#Measurement",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://saref.etsi.org/core#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Measurement"
+    "@id" : "https://saref.etsi.org/core/FeatureOfInterest"
   } ]
 }, {
   "@id" : "https://saref.etsi.org/core#hasTimestamp",
@@ -208,5 +181,32 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "makes measurement"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/core/Device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/core#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Device"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/core/FeatureOfInterest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/core#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Feature of Interest"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/core/Measurement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://saref.etsi.org/core#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Measurement"
   } ]
 } ]

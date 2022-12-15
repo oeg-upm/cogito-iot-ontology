@@ -206,7 +206,7 @@
 
 
     <owl:Class rdf:about="https://cogito.iot.linkeddata.es/def/iot#LocationMeasurement">
-        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/core#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/core/Measurement"/>
         <rdfs:comment>The location measured by an entity (especially an iot:TrackingTag)</rdfs:comment>
         <rdfs:label>Location Measurement</rdfs:label>
     </owl:Class>
@@ -227,7 +227,7 @@
 
 
     <owl:Class rdf:about="https://cogito.iot.linkeddata.es/def/iot#TrackingTag">
-        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/core#Device"/>
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/core/Device"/>
         <rdfs:comment>A subclass of saref:Device and, as such, a tangible object designed to accomplish a particular task; in this case signalling its location</rdfs:comment>
         <rdfs:label>Tracking Tag</rdfs:label>
     </owl:Class>
@@ -238,36 +238,36 @@
 
 
     <owl:Class rdf:about="https://cogito.iot.linkeddata.es/def/resource#Resource">
-        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/core#FeatureOfInterest"/>
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/core/FeatureOfInterest"/>
         <rdfs:comment>A source of supply, support, or aid, especially one that can be readily drawn upon when needed; and from which a property is measured</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://saref.etsi.org/core#Device -->
+    <!-- https://saref.etsi.org/core/Device -->
 
 
-    <owl:Class rdf:about="https://saref.etsi.org/core#Device">
+    <owl:Class rdf:about="https://saref.etsi.org/core/Device">
         <rdfs:isDefinedBy rdf:resource="https://saref.etsi.org/core#"/>
         <rdfs:label>Device</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://saref.etsi.org/core#FeatureOfInterest -->
+    <!-- https://saref.etsi.org/core/FeatureOfInterest -->
 
 
-    <owl:Class rdf:about="https://saref.etsi.org/core#FeatureOfInterest">
+    <owl:Class rdf:about="https://saref.etsi.org/core/FeatureOfInterest">
         <rdfs:isDefinedBy rdf:resource="https://saref.etsi.org/core#"/>
         <rdfs:label>Feature of Interest</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://saref.etsi.org/core#Measurement -->
+    <!-- https://saref.etsi.org/core/Measurement -->
 
 
-    <owl:Class rdf:about="https://saref.etsi.org/core#Measurement">
+    <owl:Class rdf:about="https://saref.etsi.org/core/Measurement">
         <rdfs:isDefinedBy rdf:resource="https://saref.etsi.org/core#"/>
         <rdfs:label>Measurement</rdfs:label>
     </owl:Class>
