@@ -1,5 +1,5 @@
 @prefix : <https://cogito.iot.linkeddata.es/def/iot#> .
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
 @prefix iot: <https://cogito.iot.linkeddata.es/def/iot#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -117,11 +117,11 @@ iot:hasResult rdf:type owl:ObjectProperty ;
 #    Classes
 #################################################################
 
-###  http://www.opengis.net/ont/geosparql#Point
-geo:Point rdf:type owl:Class ;
-          rdfs:subClassOf iot:Result ;
-          rdfs:isDefinedBy <http://www.opengis.net/ont/geosparq#> ;
-          rdfs:label "Point" .
+###  http://www.opengis.net/ont/sfl#Point
+<http://www.opengis.net/ont/sfl#Point> rdf:type owl:Class ;
+                                       rdfs:subClassOf iot:Result ;
+                                       rdfs:isDefinedBy <http://www.opengis.net/ont/geosparq#> ;
+                                       rdfs:label "Point" .
 
 
 ###  https://cogito.iot.linkeddata.es/def/facility#SpatialZone
