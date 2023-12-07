@@ -1,9 +1,9 @@
-Identifier	Competency Question / Fact
-IOT-1	A tracking tag has an identifier
-IOT-2	A tracking tag signals its location (and that of the resource it is assigned to)
-IOT-3	A tracking tag signals its location at a particular time
-IOT-4	There are three kinds of location a tracking tag can signal: location locationKF and locationMA
-IOT-5	A tracking tag belongs to a tag group
-IOT-6	A tag group has an identifier and a name
-IOT-7	A tag group will be assigned to workders or to equipment
-IOT-8	a tracking tag is assigned to a tracked zone, which is a sub-class of spatial zones in the facility ontology
+"Identifier	Competency Question / Fact"
+"IOT-1	A tracking tag has an identifier"
+"IOT-2	A tracking tag signals its location (and that of the resource it is assigned to)"
+"IOT-3	A tracking tag signals its location at a particular time"
+"IOT-4	The location of a tracking tag includes its coordinates (x,y,z), its location radius, its inferred accuracy, its inferred movement and its inferred speed"
+"IOT-5	A tracking tag belongs to a tag group"
+"IOT-6	A tag group has an identifier and a name"
+"IOT-7	A tag group will be assigned to workders or to equipment"
+"IOT-8	a tracking tag is assigned to a tracked zone, which is a sub-class of spatial zones in the facility ontology"
