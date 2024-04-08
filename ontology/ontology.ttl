@@ -100,10 +100,10 @@ iot:measuresLocation rdf:type owl:ObjectProperty ;
                                       rdfs:label "identifier" .
 
 
-###  http://purl.org/dc/terms/titile
-<http://purl.org/dc/terms/titile> rdf:type owl:DatatypeProperty ;
-                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                  rdfs:label "title" .
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:DatatypeProperty ;
+                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                 rdfs:label "title" .
 
 
 ###  https://cogito.iot.linkeddata.es/def/iot#coordX

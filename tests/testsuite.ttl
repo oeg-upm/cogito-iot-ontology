@@ -1,0 +1,67 @@
+@prefix : <http://example.org/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://example.org/ns#> .
+
+
+
+:Test1 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "EquipmentTagGroup subClassOf TrackingTagGroup" .
+
+:Test2 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "HumanTagGroup subClassOf TrackingTagGroup" .
+
+:Test3 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "TrackingTagGroup title literal" .
+
+:Test4 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "TrackingTagGroup identifier literal" .
+
+:Test5 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "TrackingTag belongsToTagGroup TrackingTagGroup" .
+
+:Test6 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "LocationMeasurement inferredSpeed float" .
+
+:Test7 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "LocationMeasurement inferredMovement float" .
+
+:Test8 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "LocationMeasurement inferredAccuracy float" .
+
+:Test9 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "LocationMeasurement locationRadius float" .
+
+:Test10 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "LocationMeasurement coordZ float" .
+
+:Test11 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "LocationMeasurement coordY float" .
+
+:Test12 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "LocationMeasurement coordX float" .
+
+:Test13 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "LocationMeasurement hasTimestamp dateTime" .
+
+:Test14 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "TrackingTag measuresLocation LocationMeasurement" .
+
+:Test15 rdf:type <https://w3id.org/def/vtc#TestCaseDesign> ,
+                owl:NamedIndividual ;
+       <https://w3id.org/def/vtc#desiredBehaviour> "TrackingTag identifier literal" .
